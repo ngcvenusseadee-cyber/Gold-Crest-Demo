@@ -597,14 +597,14 @@ select.contact-input option {
 
 @media (max-width: 767px) {
   .hero-background-video {
-    opacity: 0.82;
-    filter: saturate(1) contrast(1.04) brightness(0.82);
+    opacity: 0.96;
+    filter: saturate(1.02) contrast(1.05) brightness(0.9);
   }
 
   .hero-background-video-overlay {
     background:
-      radial-gradient(circle at 24% 22%, rgba(198, 165, 106, 0.12), transparent 26%),
-      linear-gradient(180deg, rgba(7, 9, 11, 0.22) 0%, rgba(7, 9, 11, 0.48) 56%, rgba(7, 9, 11, 0.62) 100%);
+      radial-gradient(circle at 24% 22%, rgba(198, 165, 106, 0.1), transparent 26%),
+      linear-gradient(180deg, rgba(7, 9, 11, 0.14) 0%, rgba(7, 9, 11, 0.34) 56%, rgba(7, 9, 11, 0.5) 100%);
   }
 
   .site-header--top,
@@ -613,5 +613,9 @@ select.contact-input option {
     backdrop-filter: blur(16px);
     -webkit-backdrop-filter: blur(16px);
     border-bottom-color: rgba(255, 255, 255, 0.08);
+  }
+
+  .header-mobile-cta {
+    box-shadow: 0 12px 28px rgba(198, 165, 106, 0.18);
   }
 }

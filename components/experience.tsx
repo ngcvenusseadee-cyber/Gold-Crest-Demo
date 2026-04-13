@@ -314,7 +314,7 @@ export default function Experience() {
                 Free Consultation
               </a>
             </nav>
-            <a href="#contacto" className="header-mobile-cta md:hidden rounded-full border border-gold/30 bg-gold/12 px-4 py-2 text-[10px] uppercase tracking-[0.22em] text-sand transition hover:bg-gold hover:text-ink">
+            <a href="#contacto" className="header-consultation-btn header-mobile-cta md:hidden rounded-full border border-gold/30 bg-gold/12 px-4 py-2 text-[10px] uppercase tracking-[0.22em] text-sand transition hover:bg-gold hover:text-ink">
               Free Consultation
             </a>
           </div>
