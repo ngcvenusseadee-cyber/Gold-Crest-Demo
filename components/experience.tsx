@@ -314,6 +314,9 @@ export default function Experience() {
                 Free Consultation
               </a>
             </nav>
+            <a href="#contacto" className="header-mobile-cta md:hidden rounded-full border border-gold/30 bg-gold/12 px-4 py-2 text-[10px] uppercase tracking-[0.22em] text-sand transition hover:bg-gold hover:text-ink">
+              Free Consultation
+            </a>
           </div>
         </header>
 
@@ -324,6 +327,7 @@ export default function Experience() {
             muted
             loop
             playsInline
+            preload="auto"
             poster="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1800&q=80"
           >
             <source src="/videos/hero-luxury.mp4" type="video/mp4" />

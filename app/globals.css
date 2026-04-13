@@ -128,6 +128,10 @@ button {
   pointer-events: none;
 }
 
+.header-mobile-cta {
+  box-shadow: 0 10px 24px rgba(198, 165, 106, 0.14);
+}
+
 .hero-primary-btn {
   position: relative;
   overflow: hidden;
@@ -588,5 +592,26 @@ select.contact-input option {
     filter: none;
     opacity: 1;
     transform: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-background-video {
+    opacity: 0.82;
+    filter: saturate(1) contrast(1.04) brightness(0.82);
+  }
+
+  .hero-background-video-overlay {
+    background:
+      radial-gradient(circle at 24% 22%, rgba(198, 165, 106, 0.12), transparent 26%),
+      linear-gradient(180deg, rgba(7, 9, 11, 0.22) 0%, rgba(7, 9, 11, 0.48) 56%, rgba(7, 9, 11, 0.62) 100%);
+  }
+
+  .site-header--top,
+  .site-header--scrolled {
+    background: rgba(10, 12, 15, 0.72);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border-bottom-color: rgba(255, 255, 255, 0.08);
   }
 }
